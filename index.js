@@ -16,3 +16,16 @@ if (age >= 18) {
 } else {
     console.log(`Несовершеннолетний`)
 }
+//1 свое задание
+let x = parseInt(prompt("Значение Х:"));
+let y = parseInt(prompt("Значение Y:"));
+let z = x+y;
+console.log(z)
+//2 свое задание
+function linearEquation(v, k) {
+    return -k/v;
+}
+let v = 10;
+let k = 11;
+let result = linearEquation(v, k)
+console.log(`Результат ${result}`)
